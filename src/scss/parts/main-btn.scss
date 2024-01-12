@@ -1,0 +1,24 @@
+.main-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #61ce70;
+
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding: em(12) em(20);
+  gap: em(10);
+  color: #fff;
+
+  white-space: nowrap;
+  span {
+    @include Font400;
+    font-size: em(14);
+    color: #fff;
+  }
+  &:hover {
+    background: #50ad5c;
+    transition: all 0.24s ease-in-out;
+  }
+}

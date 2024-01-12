@@ -1,0 +1,50 @@
+main.main
+  .wrapper
+    .main__title
+      span Americans With Over $10,000 In Credit Card Debt Could Qualify For $1,000s Back In Their Pockets, Through Program Savings!
+    .main__image
+      +image('main-img.png')
+    .main__descr
+      span Take The Short Quiz To See If You Qualify For A Free Debt Review
+    .main__qiuz
+      .main__progress
+        .main__progress-step
+          p
+            | step
+            span 1
+            | of 5
+        .main__progress-line
+    .main__question#question-first.showed
+      span Do You Live In The United States?
+      .question-btn.question-btn-next
+        span Yes
+      .question-btn.question-btn-next
+        span No
+    .main__question#question-second
+      span Do you have over $10,000 In Credit Card Debt?
+      .question-btn.question-btn-next
+        span Yes
+      .question-btn.question-btn-next
+        span No
+    .main__review#review-js
+      .main__review-one
+        span Reviewing your answer
+        include ../../assets/images/Spinner.svg
+      .main__review-two#reviewTwo-js
+        span Matching with best option
+        include ../../assets/images/Spinner.svg
+
+      .main__review-finish#reviewDone-js
+        h2 CONGRATULATIONS! You pre-qualify to get $1,000s back in your pocket, through this Credit Card Debt Giveback Program.
+        h3 TAP TO CALL NOW
+        .question-btn
+          span 1(855) 758-2260
+      .main__review-timer
+        p
+          | Act fast! A Debt Specialist Is Waiting With Your Free Review
+          span  1:53
+
+
+
+
+

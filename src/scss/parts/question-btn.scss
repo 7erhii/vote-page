@@ -1,0 +1,15 @@
+.question-btn {
+  width: 100%;
+  text-align: center;
+  background: #e9a800;
+  padding: em(20);
+  transition: all 0.24s ease-in-out;
+  span {
+    color: #fff;
+    @include Font400;
+    font-size: em(16);
+  }
+  &:hover {
+    background: #efb932;
+  }
+}

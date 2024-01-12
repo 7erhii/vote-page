@@ -1,0 +1,39 @@
+.header {
+  padding: em(10) 0;
+  width: 100%;
+  &__sponsor {
+    width: 100%;
+    text-align: left;
+    padding-bottom: em(10);
+    span {
+      @include Font400;
+      font-size: em(12);
+    }
+  }
+  &__content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    img {
+      width: 100%;
+      max-width: em(300);
+      @include mobile {
+        max-width: em(100);
+      }
+    }
+  }
+  &__actions {
+    display: flex;
+    align-items: center;
+    gap: em(10);
+  }
+  &__text {
+    span {
+      @include Font400;
+      font-size: em(12);
+    }
+  }
+}
